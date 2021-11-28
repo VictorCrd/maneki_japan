@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./css/bootstrap_change.css">
+
+        <title>MANEKI</title>
+    </head>
+
+    <body>
+    <div class="mt-5 container">
+        <h1>Hello, world!</h1>
+    </div>
+
+    <!-- Podcats list -->
+    <div class="mt-5 container">
+        <h2>Podcats</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list--podcast" role="tablist">
+                <a class="list-group-item list-group-item-action active d-flex justify-content-between align-items-center"
+                id="list-nihongo-list" data-toggle="list" href="#list-nihongo" role="tab" aria-controls="home">
+                    <span>Nihongo for you</span>
+                    <button onclick="window.open('https://www.nihongoforyou.com/episodes')" type="button"
+                    class="btn btn-primary float-right custom-btn">
+                        <i class="bi bi-globe2 link_color" style="color: black; font-size: 1.2rem;"></i>
+                    </button>
+                </a>
+                <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                   id="list-haru-list" data-toggle="list" href="#list-haru" role="tab">
+                    <span>Haru no Nihongo</span>
+                    <button onclick="window.open('https://www.haru-no-nihongo.com/podcast')" type="button"
+                    class="btn btn-primary float-right custom-btn">
+                        <i class="bi bi-globe2 link_color" style="color: black; font-size: 1.2rem;"></i>
+                    </button>
+                </a>
+                <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                   id="list-noriko-list" data-toggle="list" href="#list-noriko" role="tab">
+                    <span>Japanese with Noriko</span>
+                    <button onclick="window.open('https://www.japanesewithnoriko.com/season-1-archive')" type="button"
+                    class="btn btn-primary float-right custom-btn">
+                        <i class="bi bi-globe2 link_color" style="color: black; font-size: 1.2rem;"></i>
+                    </button>
+                </a>
+                <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                   id="list-konna-list" data-toggle="list" href="#list-konna" role="tab">
+                    <span>Konna to kino no nihongo</span>
+                    <button onclick="window.open('https://megmig.themedia.jp/pages/3767604/blog')" type="button"
+                    class="btn btn-primary float-right custom-btn">
+                        <i class="bi bi-globe2 link_color" style="color: black; font-size: 1.2rem;"></i>
+                    </button>
+                </a>
+                <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                   id="list-jp-world-list" data-toggle="list" href="#list-jp-world" role="tab">
+                    <span>Japanese World Podcast</span>
+                    <button onclick="window.open('https://jworldpodcast.blogspot.com/')" type="button"
+                    class="btn btn-primary float-right custom-btn">
+                        <i class="bi bi-globe2 link_color" style="color: black; font-size: 1.2rem;"></i>
+                    </button>
+                </a>
+                </div>
+            </div>
+
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent-podcast">
+                    <div class="tab-pane fade show active" id="list-nihongo" role="tabpanel" aria-labelledby="list-nihongo-list">Nihongo for you</div>
+                    <div class="tab-pane fade" id="list-haru" role="tabpanel" aria-labelledby="list-haru-list">Haru no Nihongo</div>
+                    <div class="tab-pane fade" id="list-noriko" role="tabpanel" aria-labelledby="list-noriko-list">Japanese with Noriko</div>
+                    <div class="tab-pane fade" id="list-konna" role="tabpanel" aria-labelledby="list-konna-list">Konna to kino no nihongo</div>
+                    <div class="tab-pane fade" id="list-jp-world" role="tabpanel" aria-labelledby="list-jp-world-list">Japanese World Podcast</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- News list -->
+    <div class="mt-5 container">
+        <h2>News</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab-news" role="tablist">
+                <a class="list-group-item list-group-item-action active d-flex justify-content-between align-items-center"
+                id="list-nhk-list" data-toggle="list" href="#list-nhk" role="tab" aria-controls="home">
+                    <span>NHK news</span>
+                    <button onclick="window.open('https://www3.nhk.or.jp/news//easy/')" type="button"
+                    class="btn btn-primary float-right custom-btn">
+                        <i class="bi bi-globe2 link_color" style="color: black; font-size: 1.2rem;"></i>
+                    </button>
+                </a>
+                <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                   id="list-easy-jp-list" data-toggle="list" href="#list-easy-jp" role="tab">
+                    <span>Easy japanese</span>
+                    <button onclick="window.open('https://www.easyjapanese.net/')" type="button"
+                    class="btn btn-primary float-right custom-btn">
+                        <i class="bi bi-globe2 link_color" style="color: black; font-size: 1.2rem;"></i>
+                    </button>
+                </a>
+                </div>
+            </div>
+
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent-news">
+                    <div class="tab-pane fade show active" id="list-nhk" role="tabpanel" aria-labelledby="list-nhk-list">NHK news</div>
+                    <div class="tab-pane fade" id="list-easy-jp" role="tabpanel" aria-labelledby="list-easy-jp-list">Easy japanese</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TV list -->
+    <div class="mt-5 container">
+        <h2>TV</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab-tv" role="tablist">
+                <a class="list-group-item list-group-item-action active d-flex justify-content-between align-items-center"
+                id="list-AQ-list" data-toggle="list" href="#list-AQ" role="tab" aria-controls="home">
+                    <span>AQ Stream</span>
+                    <button onclick="window.open('https://aqstream.com/jp/tva/TV-Asahi')" type="button"
+                    class="btn btn-primary float-right custom-btn">
+                        <i class="bi bi-globe2 link_color" style="color: black; font-size: 1.2rem;"></i>
+                    </button>
+                </a>
+                <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                   id="list-eja-list" data-toggle="list" href="#list-eja" role="tab">
+                    <span>Eja tv</span>
+                    <button onclick="window.open('https://eja.tv/?limit=0&country=&language=Japanese')" type="button"
+                    class="btn btn-primary float-right custom-btn">
+                        <i class="bi bi-globe2 link_color" style="color: black; font-size: 1.2rem;"></i>
+                    </button>
+                </a>
+                </div>
+            </div>
+
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent-tv">
+                    <div class="tab-pane fade show active" id="list-AQ" role="tabpanel" aria-labelledby="list-AQ-list">AQ Stream</div>
+                    <div class="tab-pane fade" id="list-eja" role="tabpanel" aria-labelledby="list-eja-list">Eja tv</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 container">
+        <ul class="list-unstyled">
+            <li>Inc.
+            <ul>
+                <li>Books</li>
+                <li>Twitch</li>
+                <li>Youtube</li>
+                <li>Apps (Anki)</li>
+            </ul>
+        </ul>
+    </div>s
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+
+    </body>
+</html>
