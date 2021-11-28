@@ -1,0 +1,27 @@
+/* List */
+.list-group-item-action:hover {background: #ffd98a;}
+
+.list-group-item.active {
+    background-color: #ffcc66 !important;
+    border-color: #ffcc66
+}
+
+/* Button world */
+.btn-primary.custom-btn {
+	background-color: rgb(220, 220, 220);
+	border-color: rgb(220, 220, 220);
+}
+
+.btn-primary.custom-btn:hover {
+    background: rgb(198, 198, 198);
+    border-color: rgb(198, 198, 198)
+}
+
+
+/*
+#FEFEFF
+#D6EFFF
+#FED18C
+#FED99B
+#FE654F
+ */
